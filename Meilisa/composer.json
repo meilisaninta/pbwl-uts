@@ -1,0 +1,16 @@
+{
+    "name": "wika/wika",
+    "description": "Uts_wika",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "wika\\Op\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wika"
+        }
+    ],
+    "require": {}
+}
