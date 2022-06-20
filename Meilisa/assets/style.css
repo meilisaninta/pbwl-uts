@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+img{
+    position: relative;
+    right: 15px;
+width: 7%;
+height: auto;
+}
+
+h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+table{
+    margin: 0px auto;
+
+}
+.logo {
+
+margin: 10px 10px 10px 10px;
+}
+.logo h1{
+    position: relative;
+    right: 20px;
+}
+
+.garis{
+  margin: 10px 10px 10px 10px;
+  padding-bottom: 45px; 
+    border: 5px solid color: #fff;
+    text-align: center;
+}
+
+
+.mainc{
+    font-size: large;
+max-width: 100%;
+height: auto;
+margin-top: 60px;
+}
+
+.bagian-bawah a.active {
+    background-color: #e8e8e8;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+ul.menu {
+    text-align: center;
+    font-family: "myriadffs", sans-serif;
+    max-width: 100% auto;
+    
+}
+ul.menu a{
+    padding: 6px 12px;
+    font-size: larger;
+}
+
+ul.menu li a:hover{
+    background-color:rgb(101, 124, 60);
+}
+
+.kepala {
+ background-color:rgb(203 202 89);   
+    position:relative;
+    margin: 0 5%;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.kaki{
+    top: 15%;
+        clear: both;
+ background-color:rgb(203 202 89);   
+    position:relative;
+    margin: 0 5%;
+    text-align: center;
+}
+
